@@ -1,0 +1,81 @@
+/*================================
+Author: Jandy Sagisi
+checkoutmy.space
+----------------------------------
+GENERIC STYLES
+================================*/
+
+html {
+    font-family:sans-serif;
+    font-size: 62.5%;
+    -webkit-top-highlight-color: rgba(0,0,0, 0);
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust: 100%;
+}
+
+li {
+    font: 14px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.42857143;
+    color: rgb(51, 51, 51);
+    background-color: #fff;
+
+}
+body{
+    font: 14px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
+}
+/*===========================================
+HOME SELECTION STYLE
+---------------------------------------------
+============================================*/
+#home {
+    background: url(file:///C:/Users/Jandy/Desktop/project/index.html#home) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -img-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /*This is spacer before the Main title Logo */
+    padding-bottom: 500px;/*This is spacer after the Main title Logo */
+    color: #fff;
+}
+
+.head-main {
+    text-shadow:  2px 4px 5px rgba(0,0,0,.5);
+    font-variant: small-caps;
+    color: #fff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: impact, sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double #fff;
+    padding: 10px;
+}   
+
+.head-sub-main {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.head-last {
+    font-size: 10px;
+    font-weight: 900;
+    padding:  5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+} 
